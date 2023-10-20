@@ -159,6 +159,7 @@ h1, h2, h3, h4, h5, h6, p, span{
     position: relative;
     padding-top: 30px;
     overflow: hidden;
+    padding-bottom: 60px;
 }
 .discription-container{
     padding-left: 97px;
@@ -295,3 +296,111 @@ h1, h2, h3, h4, h5, h6, p, span{
     left: -40px;
 }
 /* End Discription Area */
+
+/* Start Footer Area */
+.footer-area{
+    position: relative;
+    padding-top: 80px;
+    border-top: 1px solid #F4F5F7;
+}
+.footer-container{
+    padding-left: 97px;
+    padding-right: 66px;
+}
+.footer-row{
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+}
+.foorter-content-one{
+    flex-basis: 30%;
+}
+.footer-content-two{
+    flex-basis: 30%;
+}
+.footer-content-three{
+    flex-basis: 30%;
+}
+.footer-one-title{
+    font-size: 22px;
+    font-weight: 700;
+}
+.foorter-content-one p{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.113px;
+}
+.footer-logo-text-group{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.footer-logo img{
+    width: 40px;
+}
+.footer-logo-text{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid var(--primary-color);
+    padding: 5px 15px;
+}
+.footer-logo-text span{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 11px;
+}
+.footer-content-one-last-text{
+    margin-top: 20px;
+}
+.footer-content-one-last-text span{
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer-two-title{
+    font-size: 22px;
+    font-weight: 700;
+}
+.footer-content-two p{
+    margin-top: 15px;
+    color: rgba(51, 51, 51, 0.80);
+    font-weight: 400;
+    font-size: 18px;
+}
+.footer-content-two p .footer-two-frist-span{
+    font-weight: 400;
+    color: var(--primary-color);
+}
+.footer-content-two p a{
+    color: #3C84CF;
+    font-weight: 700;
+}
+.footer-content-two p .footer-two-frist-span{
+    color: var(--primary-color);
+}
+.footer-content-two p .footer-two-second-span{
+    font-weight: 700;
+}
+.footer-two-card-title{
+    font-weight: 700;
+    font-size: 18px;
+}
+.footer-card{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.footer-content-three span{
+    font-size: 22px;
+    font-weight: 400;
+}
+.footer-three-title{
+    font-weight: 700 !important;
+}
+.footer-content-three-second-step{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* End Footer Area */

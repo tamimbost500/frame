@@ -42,3 +42,28 @@
     }
 }
 /* End Discription Area */
+
+/* Start Footer Area */
+@media (max-width:1420px){
+    .footer-content-three {
+        flex-basis: 20%;
+    }
+    .footer-content-two {
+        flex-basis: 32%;
+    }
+    .foorter-content-one {
+        flex-basis: 40%;
+    }
+    .footer-row{
+        gap: 0;
+    }
+}
+@media (max-width:1214px){
+    .footer-content-two p > br{
+        display: none;
+    }
+    .footer-content-three {
+        flex-basis: 25%;
+    }
+}
+/* End Footer Area */
