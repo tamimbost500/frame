@@ -65,5 +65,17 @@
     .footer-content-three {
         flex-basis: 25%;
     }
+    .footer-content-one-last-text br{
+        display: none;
+    }
+    .foorter-content-one {
+        flex-basis: 30%;
+    }
+    .footer-content-two {
+        flex-basis: 32%;
+    }
+    .footer-content-three {
+        flex-basis: 25%;
+    }
 }
 /* End Footer Area */
