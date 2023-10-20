@@ -1,0 +1,44 @@
+/* Start Header Area */
+@media (max-width:1499px){
+    .hero-right-text{
+        left: 50%;
+    }
+    .hero-section .hero-shep-text{
+        transform: translate(-25%, -85%);
+        width: 65%;
+        gap: 40px;
+    }
+    .hero-section p, .hero-section span{
+        font-size: 17px;
+    }
+}
+@media (max-width:1099px){
+    .hero-right-text {
+        left: 0;
+    }
+}
+@media (max-width:1399px){
+    .hero-right-text{
+        left: 45%;
+    }
+}
+@media (max-width:1199px){
+    .hero-left{
+        width: 62%;
+    }
+}
+/* End Header Area */
+
+/* Start Discription Area */
+@media (max-width:1099px){
+    .discription-left {
+        width: 60%;
+    }
+    .discription-right{
+        width: 40%;
+    }
+    .discription-container{
+        gap: 10%;
+    }
+}
+/* End Discription Area */

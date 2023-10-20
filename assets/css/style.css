@@ -1,0 +1,297 @@
+/* Start Google Fonts DM Sans */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap');
+/* End Google Fonts DM Sans */
+
+/* Start Css Variable */
+:root{
+    --primary-color:#333333;
+    --body-font:'DM Sans', sans-serif;
+}
+/* End Css Variable */
+
+/* Start Common Css for Body */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow: hidden;
+    overflow-y: auto;
+    scroll-behavior: auto !important;
+    margin: 0;
+    padding: 0;
+}
+body {
+	margin: 0;
+    padding: 0;
+    font-family: var(--body-font);
+    position: relative;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+input:focus,
+textarea:focus,
+select:focus,
+button:focus,
+.slick-slide {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+h1, h2, h3, h4, h5, h6, p, span{
+    margin: 0;
+    padding: 0;
+}
+/* End Common Css for Body */
+
+/* Start Hero Area */
+.hero-section{
+    position: relative;
+    overflow: hidden;
+}
+.hero-step-one{
+    padding-left: 97px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-left{
+    padding-top: 57px;
+}
+.hero-right{
+    position: relative;
+    top: -10%;
+}
+.hero-section .hero-shep-text{
+    display: flex;
+    gap: 66px;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-17%, -100%);
+}  
+.hero-section p,
+.hero-section span{
+    letter-spacing: -0.113px;
+    font-size: 21px;
+    color: #fff;
+}
+.hero-section p{
+    font-weight: 700;
+}
+.hero-section span{
+    font-weight: 400;
+}
+.hero-section .hero-shep-text > span{
+    font-weight: normal;
+}
+.hero-shep-tax{
+    margin-top: 24px;
+}
+.hero-shep-web{
+    margin-top: 24px;
+}
+.hero-left-text{
+    margin-top: 62px;
+    margin-left: 70px;
+}
+.hero-left-text h5{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.113px;
+}
+.hero-left-text span{
+    display: block;
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -0.113px;
+}
+.hero-right-text{
+    position: relative;
+    left: 65%;
+    margin-top: 18px;
+}
+.hero-right-text h4{
+    font-size: 40px;
+    color: var(--primary-color);
+    font-weight: 700;
+    letter-spacing: -0.113px;
+}
+.hero-right-text span{
+    font-size: 14px;
+    color: var(--primary-color);
+    font-weight: 400;
+    letter-spacing: -0.113px;
+}
+.hero-right-text h2{
+    color: #C3C7CE;
+    font-weight: 700;
+    font-size: 70px;
+    margin-top: 5px;
+}
+/* End Hero Area */
+
+/* Start Discription Area */
+.discription-area{
+    position: relative;
+    padding-top: 30px;
+    overflow: hidden;
+}
+.discription-container{
+    padding-left: 97px;
+    padding-right: 66px;
+    display: flex;
+    justify-content: space-between;
+}
+.discription-left-title h4{
+    color: var(--primary-color);
+    font-size:33px;
+    font-weight: 700;
+    position: relative;
+    letter-spacing: -0.113px;
+}
+.discription-left-title h4::after{
+    content: '';
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+    background-color: #F4F5F7;
+    height: 2px;
+    width: 100%;
+}
+.discription-left-title p{
+    margin-top: 41px;
+    letter-spacing: -0.113px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.discription-ct{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;   
+}
+.discription-ct-name span{
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 12px;
+}
+.discription-ct-price span{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 12px;
+}
+.client-login{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.client-login span{
+    font-size: 30px;
+    font-weight: 700;
+}
+.client-login img{
+    width: 30px;
+}
+.email-login{
+    margin-top: 13px;
+}
+.email-login span{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 12px;
+}
+.email-login span a{
+    color: #3C84CF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 12px;
+}
+.copy-text{
+    margin-top: 30px;
+}
+.copy-text p{
+    background-color: #F4F5F7;
+    border-radius: 4px;
+    padding: 4.069px 6.442px 6.215px 6.102px;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+}
+.discription-right{
+    background-color: #F4F5F7;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-right: 25px;
+    border-radius: 15px;
+}
+.discription-right span{
+    color: var(--primary-color);
+}
+.discription-right-number .discription-right-frist-title{
+    font-weight: 700;
+    font-size: 22px;
+}
+.discription-right-number span{
+    font-weight: 400;
+    font-size: 22px;
+}
+.discription-right-date{
+    margin-top: 18px;
+}
+.discription-right-date .discription-right-second-title{
+    font-size: 22px;
+    font-weight: 700;
+}
+.discription-right-date span{
+    font-size: 22px;
+    font-weight: 400;
+}
+.discription-total-ammount{
+    margin-top: 83px;
+}
+.discription-total-ammount .discription-right-third-title{
+    font-size: 22px;
+    font-weight: 700;
+}
+.discription-total-ammount h2{
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: -0.291px;
+    position: relative;
+    margin-left: 40px;
+}
+.discription-total-ammount h2 > span{
+    font-size: 62px;
+    font-weight: 700;
+    letter-spacing: -0.291px;
+    position: absolute;
+    top: 0;
+    left: -40px;
+}
+/* End Discription Area */
