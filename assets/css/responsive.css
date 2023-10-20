@@ -12,11 +12,6 @@
         font-size: 17px;
     }
 }
-@media (max-width:1099px){
-    .hero-right-text {
-        left: 0;
-    }
-}
 @media (max-width:1399px){
     .hero-right-text{
         left: 45%;
@@ -25,6 +20,14 @@
 @media (max-width:1199px){
     .hero-left{
         width: 62%;
+    }
+    .hero-right-text{
+        left: 36%;
+    }
+}
+@media (max-width:1099px){
+    .hero-right-text{
+        left: 25%;
     }
 }
 /* End Header Area */

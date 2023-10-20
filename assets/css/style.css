@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6, p, span{
 }
 .hero-right-text{
     position: relative;
-    left: 65%;
+    left: 50%;
     margin-top: 18px;
 }
 .hero-right-text h4{
@@ -250,6 +250,8 @@ h1, h2, h3, h4, h5, h6, p, span{
     padding-top: 30px;
     padding-right: 25px;
     border-radius: 15px;
+    position: relative;
+    left: -6%;
 }
 .discription-right span{
     color: var(--primary-color);
