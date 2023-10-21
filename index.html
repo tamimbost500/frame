@@ -9,162 +9,140 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <!-- End Linkup the Bootstrap File -->
 
-    <!-- Start Linkup the Main Css File -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- End Linkup the Main Css File -->
-
-    <!-- Start Linkup the Responsive Css File -->
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <!-- End Linkup the Responsive Css File -->
-    
+    <!-- Start Linkup the Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap" rel="stylesheet">
+    <!-- End Linkup the Google Font -->
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'DM Sans', sans-serif;
+            color: #333;
+        }
+        .hero-area{
+            position: relative;
+        }
+        .hero-right-site img{
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .hero-area table th{
+            font-size: 7px;
+            font-weight: 700;
+            letter-spacing: -0.113px;
+            padding: 0 8px;
+            color: #fff;
+        }
+        .hero-area table th > span{
+            font-weight: 400;
+        }
+        .hero-area table{
+            position: absolute;
+            right: 35px;
+            top: 45%;
+            transform: translateY(-50%);
+        }
+        .hero-area .hero-left-text{
+            margin-top: 60px;
+            margin-left: 33px;
+        }
+        .hero-area .hero-left-text p{
+            margin: 0;
+            font-size: 9px;
+            font-weight: 700;
+            letter-spacing: -0.113px;
+        }
+        .hero-area .hero-left-text span{
+            font-size: 9px;
+            font-weight: 400;
+            letter-spacing: -0.113px;
+            margin: 0;
+        }
+        .hero-area .hero-left-site {
+            position: relative;
+            top: 58px;
+        }
+        .unpaid-area .unpaid-text h5{
+            color: #333;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: -0.113px;
+            margin: 0;
+        }
+        .unpaid-area .unpaid-text span{
+            font-size: 7px;
+            line-height: 12px;
+            font-weight: 400;
+            letter-spacing: -0.113px;
+        }
+        .unpaid-area .unpaid-text h3{
+            color: #C3C7CE;
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: -0.113px;
+        }
+        .unpaid-area{
+            position: relative;
+            padding-top: 45px;
+        }
+        .unpaid-row{
+            position: relative;
+        }
+        .unpaid-text{
+            position: absolute;
+            right: 0;
+        }
+    </style>
 </head>
 <body>
 
-<!-- Start Hero Section -->
-<section class="hero-section">
-    <div class="hero-step-one">
-        <div class="hero-left">
-            <img src="assets/images/banner/item-1.png" alt="Frame">
+<!-- Start Hero Area -->
+<section class="hero-area">
+    <div class="container">
+        <div class="hero-left-site">
+            <img src="assets/images/banner/item-1.svg" alt="Frame">
             <div class="hero-left-text">
-                <h5>XII Pty Ltd</h5>
-                <span>PO Box 127</span>
+                <p>XII Pty Ltd</p>
+                <span>PO Box 127</span><br>
                 <span>City ACT 3016</span>
             </div>
         </div>
-        <div class="hero-right">
-            <div class="hero-right-shep">
-                <img src="assets/images/banner/shep-2.png" alt="Frame" class="hero-shep-two">
-                <div class="hero-shep-text">
-                    <div class="hero-shep-text-one">
-                        <p class="hero-shep-address">Company Name</p>
-                        <span>Level 14 <br>333 Something Street <br>Bucharest ACT 344</span>
-                        <p class="hero-shep-tax">TAX: <span>00 000 000 000</span></p>
-                        
-                    </div>
-                    <div class="hero-shep-text-two">
-                        <p class="hero-shep-phone">Phone</p>
-                        <span class="hero-shep-number">1300 070 000</span>
-                        <p class="hero-shep-web">Web</p>
-                        <span class="hero-shep-url">www.domain.com</span>
-                    </div>
-                </div>
+        <div class="hero-right-site">
+            <img src="assets/images/banner/shep-2.svg" alt="Frame">
+            <div class="hero-table">
+                <table>
+                    <tr>
+                        <th>Company Name <br><span>Level 14 <br> 333 Something Street <br> Bucharest ACT 344</span></th>
+                        <th>Phone <br> <span>1300 070 000</span></th>
+                    </tr>
+                    <tr>
+                        <th>TAX: <span> 00 000 000 000</span></th>
+                        <th>Web <br> <span>www.domain.com</span></th>
+                    </tr>
+                </table>
             </div>
-            <div class="hero-right-text">
-                <h4>Tax Invoice</h4>
+        </div>
+    </div>
+</section>
+<!-- End Hero Area -->
+
+<!-- Start Unpaid Area -->
+<section class="unpaid-area">
+    <div class="container">
+        <div class="unpaid-row">
+            <div class="unpaid-text">
+                <h5>Tax Invoice</h5>
                 <span>Invoice Date: Friday, December 4th, 2020</span>
-                <h2>UNPAID</h2>
+                <h3>UNPAID</h3>
             </div>
         </div>
     </div>
 </section>
-<!-- End Hero Section -->
-
-<!-- Start Discription Area -->
-<section class="discription-area">
-    <div class="discription-container">
-        <div class="discription-left">
-            <div class="discription-left-title">
-                <h4>Description</h4>
-                <p>Example product name</p>
-            </div>
-            <div class="discription-ct">
-                <div class="discription-ct-name-group">
-                    <div class="discription-ct-name">
-                        <span>3 year renewal</span>
-                    </div>
-                    <div class="discription-ct-name">
-                        <span>Government fee</span>
-                    </div>
-                </div>
-                <div class="discription-ct-price-group">
-                    <div class="discription-ct-price">
-                        <span>$112.00</span><br>
-                        <span>$87.00</span>
-                    </div>
-                </div>
-            </div>
-            <div class="client-login">
-                <img src="assets/images/icon/item-1.svg" alt="Frame">
-                <span>Client Login</span>
-            </div>
-            <div class="email-login">
-                <span>Email: <a href="#">user@email.com</a></span><br>
-                <span>Log in or retreive your password at: <a href="#">www.domain.com</a></span>
-            </div>
-            <div class="copy-text">
-                <p>A copy of this notice has also been sent to the email address above</p>
-            </div>
-        </div>
-        <div class="discription-right">
-            <div class="discription-right-number">
-                <span class="discription-right-frist-title">Invoice no.</span><br>
-                <span>00284564</span>
-            </div>
-            <div class="discription-right-date">
-                <span class="discription-right-second-title">Due date</span><br>
-                <span>19 December 2020</span>
-            </div>
-            <div class="discription-total-ammount">
-                <span class="discription-right-third-title">Total Amount Due</span>
-                <h2> <span>$</span>199</h2>
-            </div>
-            <div class="discription-last-title">
-                <p>Includes GST amount of $10.18</p>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Discription Area -->
-
-<!-- Start Footer Area -->
-<footer class="footer-area">
-    <div class="footer-container">
-        <div class="footer-row">
-            <div class="foorter-content-one">
-                <span class="footer-one-title">BPay</span>
-                <p>Contact your bank or financial <br>institution to arrange payment.</p>
-                <div class="footer-logo-text-group">
-                    <div class="footer-logo">
-                        <a href="#"><img src="assets/images/footer-img/logo.svg" alt="Frame"></a>
-                    </div>
-                    <div class="footer-logo-text">
-                        <span>Biller Code: 287730</span><br>
-                        <span>Ref: 3469947</span>
-                    </div>
-                </div>
-                <div class="footer-content-one-last-text">
-                    <span>Payment methods accepted using BPAY:</span><br>
-                    <span>Cheque, Savings or Debit Card, Visa and MasterCard</span>
-                </div>
-            </div>
-            <div class="footer-content-two">
-                <span class="footer-two-title">Credit Card</span>
-                <p><span class="footer-two-frist-span">Go to</span> <a href="#">www.domain.com/payment</a> or<br> call 1300 070 000 to <span class="footer-two-frist-span">pay via</span> <span class="footer-two-second-span">credit </span></p>
-                <span class="footer-two-card-title">Card</span>
-                <div class="footer-card">
-                    <a href="#"><img src="assets/images/footer-img/item-1.png" alt="Frame"></a>
-                    <a href="#"><img src="assets/images/footer-img/item-2.png" alt="Frame"></a>
-                    <a href="#"><img src="assets/images/footer-img/item-3.png" alt="Frame"></a>
-                </div>
-            </div>
-            <div class="footer-content-three">
-                <div class="footer-content-three-fast-step">
-                    <span class="footer-three-title">Invoice no.</span><br>
-                    <span>00284564</span>
-                </div>
-                <div class="footer-content-three-second-step">
-                    <span class="footer-three-title">Due date</span><br>
-                    <span>019 December 2020</span>
-                </div>
-                <div class="footer-content-three-third-step">
-                    <span class="footer-three-title">Amount Due</span><br>
-                    <span>$199.00</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- End Footer Area -->
+<!-- End Unpaid Area -->
 
 
 <!-- Start Linkup the Bootstrap Js File -->
