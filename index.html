@@ -96,6 +96,133 @@
             position: absolute;
             right: 0;
         }
+        .price-dis-one-title{
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: -0.113px;
+            position: relative;
+        }
+        .price-dis-one-title::after{
+            content: '';
+            position: absolute;
+            bottom: -7px;
+            left: 0;
+            background: #F4F5F7;
+            width: 100%;
+            height: 1px;
+        }
+        .price-dis-left{
+            width: 90%;
+            padding-right: 5%;
+        }
+        .product-example{
+            font-size: 15px;
+            font-weight: 400;
+            letter-spacing: -0.067px;
+            margin-top: 15px;
+        }
+        .product-name{
+            width: 50%;
+            text-align: left;
+            font-size: 9px;
+            font-weight: 400;
+            line-height: 12px;
+            letter-spacing: -0.113px;
+        }
+        .product-price{
+            width: 50%;
+            text-align: right;
+            font-size: 9px;
+            font-weight: 700;
+            line-height: 12px;
+            letter-spacing: -0.113px;
+
+        }
+        .main-product-table table{
+            width: 100%;
+        }
+        .client-login{
+            margin-top: 95px;
+        }
+        .client-login img{
+            width: 15px;
+        }
+        .client-login span{
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: -0.113px;
+        }
+        .user-pass{
+            margin-top: 6px;
+        }
+        .user-pass p{
+            margin: 0;
+            padding: 0;
+            font-size: 9px;
+            font-weight: 400;
+            line-height: 12px;
+        }
+        .user-pass p > span{
+            font-weight: 700;
+            color: #3C84CF;
+        }
+        .alart-text{
+            margin-top: 13px;
+        }
+        .alart-text p{
+            margin: 0;
+            padding: 0;
+            font-style: italic;
+            font-size: 9px;
+            font-weight: 400;
+            letter-spacing: -0.25px;
+            border-radius: 4px;
+            background: #F4F5F7;
+            padding: 4.069px 6.442px 6.215px 6.102px;
+            width: 60%;
+        }
+        .price-dis-right{
+            height: 246px;
+        }
+        .price-dis-right-box{
+            background-color: #F4F5F7;
+            padding-left: 17px;
+            padding-bottom: 16px;
+            padding-top: 23px;
+            padding-right: 25px;
+            width: 147px;
+        }
+        .price-dis-right-box p{
+            margin: 0;
+            padding: 0;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: -0.113px;
+        }
+        .price-dis-right-box span{
+            font-size: 11px;
+            font-weight: 400;
+            letter-spacing: -0.113px;
+        }
+        .price-dis-step-two{
+            margin-top: 13px;
+            margin-bottom: 67px;
+        }
+        .price-dis-step-three span{
+            font-size: 7px;
+            font-weight: 400;
+            letter-spacing: -0.113px;
+        }
+        .price-dis-step-three .main-right-price-box{
+            font-size: 51px;
+            font-weight: 400;
+        }
+        .price-dis{
+            padding-top: 100px;
+        }
+        .price-table{
+            width: 100%;
+        }
     </style>
 </head>
 <body>
@@ -143,6 +270,65 @@
     </div>
 </section>
 <!-- End Unpaid Area -->
+
+<!-- Start Discription Area -->
+<section class="price-dis">
+    <div class="container">
+        <div class="price-table">
+            <table>
+                <tr>
+                    <td class="price-dis-left">
+                        <h5 class="price-dis-one-title">Description</h5>
+                        <p class="product-example">Example product name</p>
+                        <div class="main-product-table">
+                            <table>
+                                <tr>
+                                    <td class="product-name">3 year renewal 
+                                    </td>
+                                    <td class="product-price">$112.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="product-name">Goverment Fee 
+                                    </td>
+                                    <td class="product-price">$87.00</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="client-login">
+                            <img src="assets/images/icon/item-1.svg" alt="Frame">
+                            <span>Client login</span>
+                        </div>
+                        <div class="user-pass">
+                            <p>Email: <span>user@email.com</span></p>
+                            <p>Log in or retreive your password at: <span>www.domain.com</span></p>
+                        </div>
+                        <div class="alart-text">
+                            <p>A copy of this notice has also been sent to the email address above</p>
+                        </div>
+                    </td>
+                    <td class="price-dis-right">
+                        <div class="price-dis-right-box">
+                            <div class="price-dis-step-one">
+                                <p>Invoice no.</p>
+                                <span>00284564</span>
+                            </div>
+                            <div class="price-dis-step-two">
+                                <p>Due date</p>
+                                <span>19 December 2020</span>
+                            </div>
+                            <div class="price-dis-step-three">
+                                <p>Total Amount Due</p>
+                                <span class="main-right-price-box">199</span><br>
+                                <span>Includes GST amount of $10.18</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</section>
+<!-- End Discription Area -->
 
 
 <!-- Start Linkup the Bootstrap Js File -->
